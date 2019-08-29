@@ -1,0 +1,18 @@
+/* VSCode settings */
+.vscode/ipch
+.vscode/settings.json
+
+/* Qt resources */
+build
+debug
+release
+plugins
+styles
+*.Debug
+*.Release
+.qmake.stash
+Makefile*
+
+/* Executable files */
+src/Results/createDB/createDB
+qtminer
