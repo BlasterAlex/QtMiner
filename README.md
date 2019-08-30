@@ -59,7 +59,7 @@ src/db/createDB/createDB
 <p align="center" style="position: relative">
   <a href="https://vimeo.com/356858685" target="_blank" class="player">
     <img src="https://i.vimeocdn.com/video/810044732_640.webp" alt="IMAGE ALT TEXT HERE" width="300" border="10" class="player-content" />
-    <img src="data/readme/player.png" class="player-button" />
+    <img src="data/readme/player.png" class="player-button" style="position: absolute; left: 41%; top: 35%; width: 100px" />
   </a>
 </p>
 
