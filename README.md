@@ -39,10 +39,10 @@ For create the required table in the database you must run:
 src/db/createDB/createDB
 ```
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/EFevm0B7rLA/0.jpg)](http://www.youtube.com/watch?v=EFevm0B7rLA)
+[![IMAGE ALT TEXT HERE](https://i.vimeocdn.com/video/810044732_640.webp)](https://vimeo.com/356858685)
 
 <p align="center">
   <a href="http://www.youtube.com/watch?feature=player_embedded&v=EFevm0B7rLA" target="_blank"><img src="http://img.youtube.com/vi/EFevm0B7rLA/0.jpg" 
-  alt="IMAGE ALT TEXT HERE" width="240" height="180" border="2"/></a>
+  alt="IMAGE ALT TEXT HERE" width="280" height="358" border="10"/></a>
 </p>
 
