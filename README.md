@@ -76,11 +76,11 @@
         $ systemctl stop postgresql
         ```
       - Windows:
-        ```sh
-        # start the PostgreSQL server
+        ```cmd
+        REM start the PostgreSQL server
         pg_ctl -D "C:\Program Files\PostgreSQL\9.6\data" start
 
-        # stop the PostgreSQL server
+        REM stop the PostgreSQL server
         pg_ctl -D "C:\Program Files\PostgreSQL\9.6\data" stop
         ```
 
@@ -96,7 +96,7 @@
         ```
     - Windows: 
         ```cmd
-        REM connect to the DB server as the Postgres super user using the psql command
+        REM connect to the DB server as the Postgres super user
         psql -h <host_Name> -U <super_username> -d postgres
 
         REM create user and database
