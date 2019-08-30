@@ -16,7 +16,3 @@ Makefile*
 /* Executable files */
 src/Results/createDB/createDB
 qtminer
-
-/* npm */
-node_modules
-package-lock.json
