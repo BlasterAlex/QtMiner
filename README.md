@@ -39,10 +39,27 @@ For create the required table in the database you must run:
 src/db/createDB/createDB
 ```
 
-[![IMAGE ALT TEXT HERE](https://i.vimeocdn.com/video/810044732_640.webp)](https://vimeo.com/356858685)
+<!-- [![IMAGE ALT TEXT HERE](https://i.vimeocdn.com/video/810044732_640.webp)](https://vimeo.com/356858685) -->
 
-<p align="center">
-  <a href="http://www.youtube.com/watch?feature=player_embedded&v=EFevm0B7rLA" target="_blank"><img src="http://img.youtube.com/vi/EFevm0B7rLA/0.jpg" 
-  alt="IMAGE ALT TEXT HERE" width="280" height="358" border="10"/></a>
+<style>
+  .player-content {
+    border-color: #aba7a7;
+    border-radius: 10px;
+  }
+
+  .player-button {
+    position: absolute; left: 41%; top: 35%; width: 100px
+  }
+
+  .player:hover img {
+    opacity: 0.9;
+  }
+</style>
+
+<p align="center" style="position: relative">
+  <a href="https://vimeo.com/356858685" target="_blank" class="player">
+    <img src="https://i.vimeocdn.com/video/810044732_640.webp" alt="IMAGE ALT TEXT HERE" width="300" border="10" class="player-content" />
+    <img src="data/readme/player.png" class="player-button" />
+  </a>
 </p>
 
