@@ -18,11 +18,10 @@ int main() {
       qDebug() << "Ok";
       db.close();
       return 0;
-    } else {
-      qDebug() << "Произошла ошибка при создании таблицы";
-      db.close();
-      return 0;
     }
+
+    qDebug() << "Произошла ошибка при создании таблицы";
+    db.close();
   }
 
   qDebug() << "Ошибка соединения с бд";
