@@ -1,0 +1,38 @@
+language: cpp
+os: linux
+dist: bionic
+
+install:
+  # Qt
+  - sudo apt-get --yes install build-essential
+  - sudo apt-get --yes install qt5-default
+
+  # PostgreSQL
+  - sudo apt-get --yes install postgresql postgresql-contrib
+
+script:
+  # Start PostgreSQL server
+  - sudo service postgresql start
+
+  # DB settings
+  - sudo -u postgres createuser qtminer # create user
+  - sudo -u postgres psql # change password
+  - ALTER USER qtminer WITH encrypted PASSWORD '123456';
+  - sudo -u postgres createdb -O qtminer qtminer # create db
+
+  # Create db table
+  - cd src/Results/createDB/
+  - qmake && make -s -j`nproc`
+  - ./createDB
+
+  # Compilation project
+  - cd ../../../
+  - qmake && make -s -j`nproc`
+
+
+notifications:
+  recipients:
+    - blasteralex@yandex.ru
+  email:
+    on_success: change
+    on_failure: change
