@@ -9,6 +9,8 @@ install:
 
   # PostgreSQL
   - sudo apt-get --yes install postgresql postgresql-contrib
+  - sudo apt-get --yes install libqt5sql5-psql
+
 
 script:
   # Start PostgreSQL server
