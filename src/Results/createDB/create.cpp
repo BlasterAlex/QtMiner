@@ -21,7 +21,7 @@ int main() {
     } else {
       qDebug() << "Произошла ошибка при создании таблицы";
       db.close();
-      return 0;
+      return 1;
     }
   }
 
