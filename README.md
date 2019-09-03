@@ -1,6 +1,6 @@
 # QtMiner
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/BlasterAlex/QtMiner) ![GitHub](https://img.shields.io/github/license/BlasterAlex/QtMiner)
+![Travis (.org)](https://img.shields.io/travis/BlasterAlex/QtMiner) ![GitHub](https://img.shields.io/github/license/BlasterAlex/QtMiner) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/BlasterAlex/QtMiner) 
 
 **The best implementation of the famous game!** 
 
@@ -51,6 +51,11 @@
       - [`Ubuntu`](https://timeweb.com/ru/community/articles/kak-ustanovit-postgresql-na-ubuntu-18-04-1);
       - [`Arch`](https://wiki.archlinux.org/index.php/PostgreSQL_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9));
       - [`Windows`](https://www.postgresql.org/download/windows/).
+
+    Для Ubuntu необходимо также установить [PostgreSQL Database Driver](https://packages.debian.org/ru/jessie/libqt5sql5-psql):
+    ```sh
+    $ sudo apt-get install libqt5sql5-psql
+    ```
 
 2. Далее необходимо запустить сервер PostgreSQL:
       - Ubuntu:
