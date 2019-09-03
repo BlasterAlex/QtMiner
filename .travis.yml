@@ -16,8 +16,7 @@ script:
 
   # DB settings
   - sudo -u postgres createuser qtminer # create user
-  - sudo -u postgres psql # change password
-  - ALTER USER qtminer WITH encrypted PASSWORD '123456';
+  - sudo -u postgres psql -c "ALTER USER qtminer WITH encrypted PASSWORD '123456'" # change password
   - sudo -u postgres createdb -O qtminer qtminer # create db
 
   # Create db table
@@ -28,7 +27,6 @@ script:
   # Compilation project
   - cd ../../../
   - qmake && make -s -j`nproc`
-
 
 notifications:
   recipients:
