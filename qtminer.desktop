@@ -6,4 +6,5 @@ Icon=/home/alex/Документы/Program/QtMiner/data/images/icon.png
 # Replace the path to the icon in 5-th line with a new one and then execute the program
 Exec=bash -c 'sed -i "5 s,Icon=.*,Icon=$PWD/data/images/icon.png," ./qtminer.desktop; ./qtminer'
 Type=Application
+Categories=Game;
 Name[ru_RU.utf8]=qtminer
